@@ -1,0 +1,20 @@
+.editModalBody div div {
+  margin-bottom: 5px;
+}
+
+.editModalBody input {
+  height: 26px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.editModalBody input::placeholder {
+  padding-left: 5px;
+}
+
+.cancelBtn {
+  height: 41px;
+  margin: unset;
+  margin-right: 20px;
+}

@@ -1,0 +1,40 @@
+.login-wrapper {
+  width: 100vw;
+  height: 95vh;
+  background-image: url("../img/TravelHomeBack.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.login-container {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.username-input,
+.password-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

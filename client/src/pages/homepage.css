@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100vw;
+  height: 95vh;
+  background-image: url("../components/img/TravelHomeBack.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.subtitle,
+.maintitle {
+  color: #00008b;
+}
+.btn-toMain {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+btn-toMain:hover {
+  opacity: 0.8;
+}

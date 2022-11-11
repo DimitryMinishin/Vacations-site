@@ -1,0 +1,116 @@
+.vacations-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 90%;
+  height: 100%;
+}
+
+.vacations {
+  margin-top: 80px;
+  background-color: rgb(219, 239, 252);
+  display: flex;
+  min-height: 100%;
+  flex-grow: 0;
+  flex-basis: 100%;
+  flex-shrink: 0;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.dashboard-div {
+  margin-top: 80px;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.dashboard_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 62em) {
+  #dashboard_menu {
+    width: auto;
+  }
+
+  .dashboard-div {
+    padding: 0px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e7f5f5;
+    position: absolute;
+    top: 0;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+  }
+
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-filter-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .destination-filter-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard_menu {
+    display: block;
+  }
+
+  .actives {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .dashboard-div {
+    margin-top: 0px;
+    min-height: 100vh;
+  }
+
+  .dashboard-div .dashboard-title h3 {
+    font-size: 13px;
+  }
+
+  .vacations {
+    margin-top: 0px;
+    min-height: 100vh;
+    display: block;
+  }
+}
+
+.vacation-cards {
+  margin: 12px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  place-items: center;
+  margin-left: 10%;
+}

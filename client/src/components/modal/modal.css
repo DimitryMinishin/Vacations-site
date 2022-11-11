@@ -1,0 +1,103 @@
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200, 0.7);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  z-index: 100;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: center;
+  width: 15px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.usernameDiv {
+  margin: 5px;
+}
+
+.passwordDiv {
+  margin: 5px;
+}
+
+.first-name {
+  margin: 5px;
+}
+
+.last-name {
+  margin: 5px;
+}
+.cancelBtn {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.signBtn {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
